@@ -1,0 +1,16 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Virtual environments
+env/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model files
+model/classifier.pkl
+model/vectorizer.pkl

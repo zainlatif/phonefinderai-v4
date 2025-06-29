@@ -1,0 +1,11 @@
+name,camera_quality,ip_rating,battery_life,performance,price,category
+Samsung Galaxy S24 Ultra,excellent,IP68,good,excellent,1200,camera_phone
+iPhone 15 Pro Max,excellent,IP68,good,excellent,1300,camera_phone
+CAT S62 Pro,average,IP68,good,average,600,rugged_phone
+Doogee S98 Pro,average,IP68,excellent,average,400,rugged_phone
+Xiaomi Redmi 13,average,none,good,average,150,budget_phone
+Samsung M34,good,none,excellent,average,250,long_battery
+ASUS ROG Phone 7,good,none,good,excellent,1000,gaming_phone
+POCO X5 Pro,good,none,good,good,300,gaming_phone
+Tecno Pova 5,average,none,excellent,average,180,long_battery
+Motorola Moto G Power,average,none,excellent,average,220,long_battery
