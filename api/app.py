@@ -11,7 +11,11 @@ clf = joblib.load('../model/classifier.pkl')
 vectorizer = joblib.load('../model/vectorizer.pkl')
 
 # Load phone specs
-phone_specs = pd.read_csv('../data/phone_specs.csv')
+phone_specs = pd.read_csv('../data/phone_specs.csv', encoding='utf-8-sig')
+phone_specs.columns = phone_specs.columns.str.strip()
+phone_specs['category'] = phone_specs['category'].str.strip()  # Add this line
+phone_specs['category'] = phone_specs['category'].str.lower()
+print(phone_specs.columns)  # Optional: Debug print
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -21,7 +25,9 @@ def predict():
         return jsonify({'error': 'No query provided'}), 400
 
     query_vec = vectorizer.transform([query])
-    category = clf.predict(query_vec)[0]
+    category = clf.predict(query_vec)[0].lower()
+    print("Predicted category:", category)
+    print("Available categories:", phone_specs['category'].unique())
 
     recommendations = phone_specs[phone_specs['category'] == category]['name'].tolist()
 
