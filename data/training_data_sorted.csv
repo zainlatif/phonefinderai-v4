@@ -1,0 +1,21 @@
+query,label
+I want a cheap phone with decent features,budget_phone
+budget phone,budget_phone
+budget phone,budget_phone
+I need budget phone,budget_phone
+I want phone under 200 dollars,budget_phone
+I need the best camera phone,camera_phone
+Need a phone with excellent camera for travel,camera_phone
+Best phone for Instagram reels and TikTok,camera_phone
+I want a phone for vlogging and photography,camera_phone
+Suggest a phone for mobile filmmaking,camera_phone
+"I make YouTube videos, need high quality camera",camera_phone
+Looking for a phone with great night photography,camera_phone
+I want a fast phone for gaming,gaming_phone
+"I play heavy games, need powerful processor",gaming_phone
+I want a phone with long battery life,long_battery
+"My area has poor charging, need best battery backup",long_battery
+I need waterproof phone for outdoor use,rugged_phone
+I need waterproof phone for outdoor use,rugged_phone
+I need waterproof phone for outdoor use,rugged_phone
+"I work in construction, need a tough phone",rugged_phone
