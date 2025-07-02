@@ -2,12 +2,13 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 import pandas as pd
+from sklearn.linear_model import LogisticRegression
 
 app = Flask(__name__)
 CORS(app)
 
 # Load model and vectorizer
-clf = joblib.load('../model/classifier.pkl')
+clf = joblib.load('../model/model.pkl')
 vectorizer = joblib.load('../model/vectorizer.pkl')
 
 # Load phone specs
