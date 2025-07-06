@@ -10,13 +10,31 @@ function sendQuery() {
     .then(response => response.json())
     .then(data => {
         const resDiv = document.getElementById('response');
+
         if (data.error) {
-            resDiv.innerText = `Error: ${data.error}`;
+            resDiv.innerHTML = `<span style="color:red;">❌ Error: ${data.error}</span>`;
+        } else if (data.recommendations.length === 0) {
+            resDiv.innerHTML = `<span style="color:orange;">⚠️ No matching phones found.</span>`;
         } else {
-            resDiv.innerHTML = `<strong>Category:</strong> ${data.category}<br><strong>Recommended Phones:</strong> ${data.recommendations.join(', ')}`;
+            let html = `<strong>🔍 Category:</strong> ${data.category}<br><br>`;
+            html += `<strong>📱 Recommended Phones:</strong><ul>`;
+            data.recommendations.forEach(phone => {
+                html += `
+                    <li>
+                        <strong>${phone.name}</strong><br>
+                        📸 Camera: ${phone.camera_quality} |
+                        🔋 Battery: ${phone.battery_life} |
+                        ⚡ Performance: ${phone.performance} |
+                        💰 Price: Rs. ${phone.price}
+                    </li><hr>
+                `;
+            });
+            html += `</ul>`;
+            resDiv.innerHTML = html;
         }
     })
     .catch(err => {
         console.error(err);
+        document.getElementById('response').innerText = '⚠️ Something went wrong. Check console.';
     });
 }
