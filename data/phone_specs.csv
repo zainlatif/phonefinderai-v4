@@ -1,28 +1,27 @@
-name,camera_quality,ip_rating,battery_life,performance,price,category  
-Samsung Galaxy S24 Ultra,excellent,IP68,good,excellent,336000,camera_phone  
-iPhone 15 Pro Max,excellent,IP68,good,excellent,364000,camera_phone  
-CAT S62 Pro,average,IP68,good,average,168000,rugged_phone  
-Doogee S98 Pro,average,IP68,excellent,average,112000,rugged_phone  
-Xiaomi Redmi 13,average,none,good,average,42000,budget_phone  
-Samsung M34,good,none,excellent,average,70000,long_battery  
-ASUS ROG Phone 7,good,none,good,excellent,280000,gaming_phone  
-POCO X5 Pro,good,none,good,good,84000,gaming_phone  
-Tecno Pova 5,average,none,excellent,average,50400,long_battery  
-Motorola Moto G Power,average,none,excellent,average,61600,long_battery  
-Infinix Note 30 Pro,good,none,excellent,good,69900,long_battery  
-Tecno Camon 20 Pro,good,none,good,good,64900,camera_phone  
-Itel S23,average,none,good,average,32999,budget_phone  
-Oppo A78,average,none,good,average,54900,budget_phone  
-Vivo Y27,good,none,good,average,49900,budget_phone  
-Realme C55,good,none,good,average,44900,budget_phone  
-Infinix Hot 30i,average,none,good,average,29999,budget_phone  
-Tecno Spark 10 Pro,average,none,good,average,34999,budget_phone  
-Samsung A14,good,none,good,average,49900,budget_phone  
-Xiaomi Redmi Note 12,good,none,good,good,59900,budget_phone  
-OnePlus Nord CE 3,good,none,good,excellent,89900,gaming_phone  
-Google Pixel 7a,excellent,IP67,good,excellent,149000,camera_phone  
-Nokia X30,good,IP67,good,good,89900,rugged_phone  
-Blackview BV8800,average,IP68,excellent,average,84900,rugged_phone  
-Realme GT Neo 3,good,none,good,excellent,109900,gaming_phone  
-Oppo Reno 8,excellent,none,good,good,104900,camera_phone  
-Vivo V27 Pro,excellent,none,good,excellent,119900,camera_phone  
+name,camera_quality,ip_rating,battery_life,performance,price,category
+
+Samsung Galaxy S24 Ultra,4,IP68,3,4,336000,camera_phone
+Google Pixel 7a,4,IP67,3,4,149000,camera_phone
+Oppo Reno 8,4,none,3,3,104900,camera_phone
+Tecno Camon 20 Pro,3,none,3,3,64900,camera_phone
+Samsung A14,3,none,3,2,49900,budget_phone
+Vivo Y27,3,none,3,2,49900,budget_phone
+Realme C55,3,none,3,2,44900,budget_phone
+Xiaomi Redmi 13,2,none,3,2,42000,budget_phone
+Tecno Spark 10 Pro,2,none,3,2,34999,budget_phone
+Itel S23,2,none,3,2,32999,budget_phone
+Infinix Hot 30i,2,none,3,2,29999,budget_phone
+Oppo A78,2,none,3,2,54900,budget_phone
+Xiaomi Redmi Note 12,3,none,3,3,59900,budget_phone
+ASUS ROG Phone 7,3,none,3,4,280000,gaming_phone
+Realme GT Neo 3,3,none,3,4,109900,gaming_phone
+OnePlus Nord CE 3,3,none,3,4,89900,gaming_phone
+POCO X5 Pro,3,none,3,3,84000,gaming_phone
+Infinix Note 30 Pro,3,none,4,3,69900,long_battery
+Samsung M34,3,none,4,2,70000,long_battery
+Motorola Moto G Power,2,none,4,2,61600,long_battery
+Tecno Pova 5,2,none,4,2,50400,long_battery
+CAT S62 Pro,2,IP68,3,2,168000,rugged_phone
+Doogee S98 Pro,2,IP68,4,2,112000,rugged_phone
+Nokia X30,3,IP67,3,3,89900,rugged_phone
+Blackview BV8800,2,IP68,4,2,84900,rugged_phone
